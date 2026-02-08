@@ -24,9 +24,9 @@
 
 ### Path Planning Algorithm
 
-- **DFS-based Path Planning Algorithm** applied on a particular graph (defined in the [Path Planner](https://github.com/chemayush/FPGA-Implementation-and-RTL-to-GDS-of-RISCV-Pipelined-CPU/blob/main/path_planner/path_planner.c) C program).
+- **DFS-based Path Planning Algorithm** applied on a particular graph (defined in the [Path Planner](https://github.com/arjit05/FPGA-Implementation-and-RTL2GDS-flow-of-RISCV-Pipelined-CPU/blob/main/path_planner/path_planner.c) C program).
 
-- Start/end points stored in data memory at predefined (defined in the [Path Planner](https://github.com/chemayush/FPGA-Implementation-and-RTL-to-GDS-of-RISCV-Pipelined-CPU/blob/main/path_planner/path_planner.c) C program) addresses.
+- Start/end points stored in data memory at predefined (defined in the [Path Planner](https://github.com/arjit05/FPGA-Implementation-and-RTL2GDS-flow-of-RISCV-Pipelined-CPU/blob/main/path_planner/path_planner.c) C program) addresses.
 
 - Computed path stored back to data memory for verification.
 
