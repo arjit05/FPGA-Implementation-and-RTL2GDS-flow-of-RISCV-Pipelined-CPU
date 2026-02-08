@@ -1,5 +1,5 @@
 # FPGA Implementation and RTL2GDS flow of Pipelined RISCV CPU
-
+Demo Video: https://github.com/arjit05/FPGA-Implementation-and-RTL2GDS-flow-of-RISCV-Pipelined-CPU/blob/main/Pipelined%20RISCV%20CPU%20Demo.mp4
 # Overview
 - This project implements a 5-stage pipelined RISC-V CPU in Verilog, synthesized and tested on the PYNQ Z2 FPGA board. The CPU executes a custom [Path Planning Algorithm](https://github.com/arjit05/FPGA-Implementation-and-RTL2GDS-flow-of-RISCV-Pipelined-CPU/blob/main/path_planner/path_planner.c) that computes optimal routes on a [predefined map](https://github.com/arjit05/FPGA-Implementation-and-RTL2GDS-flow-of-RISCV-Pipelined-CPU/blob/main/path_planner/Map.png). The algorithm is compiled to [machine code](https://github.com/arjit05/FPGA-Implementation-and-RTL2GDS-flow-of-RISCV-Pipelined-CPU/blob/main/path_planner/path_planner.hex), loaded into the CPU's [instruction memory](https://github.com/arjit05/FPGA-Implementation-and-RTL2GDS-flow-of-RISCV-Pipelined-CPU/blob/main/src/instr_mem.v), and validated using FPGA hardware feedback (GREEN LED).
 - Further, the RISC-V CPU core has been fully implemented using the **OpenLane** automated ASIC flow, carrying out the Synthesis, Floorplanning and Placement, Clock Tree Synthesis, Routing, Static Timing Analysis, Power Analysis, GDSII generation.
