@@ -29,7 +29,7 @@
             num = -num;   // make the number positive for easier processing
         }
 
-        // convert the integer to a string
+        // convert integer to a string
         char buffer[20]; // assuming a 32-bit integer, the maximum number of digits is 10 (plus sign and null terminator)
         uint8_t index = 0;
 
